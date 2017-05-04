@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="styleTitleBar">
+        <item name="returnArrowWidth">2dp</item>
+        <item name="returnArrowColor">#252424</item>
+        <!--标题栏背景-->
+        <item name="android:background">#FFFFFF</item>
+        <!--标题栏高度-->
+        <item name="android:layout_height">48dp</item>
+        <!--标题文字颜色-->
+        <item name="android:textColor">#252424</item>
+        <!--标题文字大小-->
+        <item name="titleTextSize">18px</item>
+        <!--副标题文字大小-->
+        <item name="subtitleTextSize">12px</item>
+        <!--固定图标大小-->
+        <item name="iconLeftSize">30dp</item>
+        <!--固定图标大小-->
+        <item name="iconRightSize">30dp</item>
+        <!--描述文字大小-->
+        <item name="descriptionTextSize">16px</item>
+        <!--图标按下时的背景颜色-->
+        <item name="iconPressedBackgroundColor">@color/easy_black</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <!--&lt;!&ndash;手机顶部状态栏颜色&ndash;&gt;-->
+        <!--<item name="statusBarColor"></item>-->
+        <!--&lt;!&ndash;手机底部功能栏颜色&ndash;&gt;-->
+        <!--<item name="functionBarColor"></item>-->
+    </style>
+</resources>

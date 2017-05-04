@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="attrTitleBar" format="fraction"/>
+    <declare-styleable name="TitleBarView">
+        <!--返回箭头宽度-->
+        <attr name="returnArrowWidth" format="dimension"/>
+        <!--返回箭头颜色-->
+        <attr name="returnArrowColor" format="color"/>
+        <!--标题高度-->
+        <attr name="android:layout_height"/>
+        <!--文字颜色-->
+        <attr name="android:textColor"/>
+        <!--标题文字大小-->
+        <attr name="titleTextSize" format="dimension" />
+        <!--副标题文字大小-->
+        <attr name="subtitleTextSize" format="dimension" />
+        <!--手机顶部状态栏颜色-->
+        <attr name="statusBarColor" format="color" />
+        <!--手机底部功能栏颜色-->
+        <attr name="functionBarColor" format="color" />
+        <!--固定图标大小-->
+        <attr name="iconLeftSize" format="dimension" />
+        <!--固定图标大小-->
+        <attr name="iconRightSize" format="dimension" />
+        <!--描述文字大小-->
+        <attr name="descriptionTextSize" format="dimension"/>
+        <!--两侧Padding-->
+        <attr name="bothSidesPadding" format="dimension"/>
+        <!--图标按下时的背景颜色-->
+        <attr name="iconPressedBackgroundColor" format="color"/>
+    </declare-styleable>
+</resources>

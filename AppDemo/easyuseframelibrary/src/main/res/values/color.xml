@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="easy_black">#000</color>
+    <color name="easy_light_gray">#c9c9c9</color>
+    <color name="easy_line_gray">#b7b6b6</color>
+    <color name="easy_white">#ffffff</color>
+    <color name="easy_red">#f15449</color>
+    <color name="easy_grayish">#edf1f3</color>
+    <color name="color_transparent_black">#2F0F0F0F</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="gray_line_color">#D9D9D9</color>
+</resources>
