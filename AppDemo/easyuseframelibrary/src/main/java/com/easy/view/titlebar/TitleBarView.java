@@ -21,11 +21,11 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.easy.R;
 import com.easy.view.titlebar.drawable.ReturnArrowDrawable;
 import com.easy.view.titlebar.helper.BackgroundHelper;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
-import om.easy.R;
 
 
 /**

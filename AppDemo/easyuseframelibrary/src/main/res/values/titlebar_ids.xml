@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标题栏ID-->
+    <item name="titleBarID" type="id"/>
+    <item name="titleBarLine" type="id"/>
+</resources>

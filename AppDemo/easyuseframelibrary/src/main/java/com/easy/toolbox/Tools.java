@@ -11,9 +11,9 @@ import android.view.View;
 public class Tools {
     /**
      * 文字大小的px
-     * @param context
-     * @param value
-     * @return
+     * @param context context
+     * @param value value
+     * @return int
      */
     public static int Int2px(Context context, float value){
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_PX, value,context.getResources().getDisplayMetrics());

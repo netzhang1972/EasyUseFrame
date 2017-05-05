@@ -12,10 +12,10 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 
+import com.easy.R;
 import com.easy.view.titlebar.TitleBarView;
 
 import butterknife.ButterKnife;
-import om.easy.R;
 
 /**
  * Created by Administrator on 2017/2/14.

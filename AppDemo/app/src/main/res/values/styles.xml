@@ -1,0 +1,25 @@
+<resources>
+    <style name="Theme.ActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="attrTitleBar">@style/titleBar</item>
+    </style>
+    <style name="titleBar" parent="styleTitleBar">
+        <!--<item name="android:paddingLeft">10dp</item>-->
+        <!--<item name="android:paddingRight">10dp</item>-->
+        <!--<item name="android:background">@color/colorAccent</item>-->
+        <!--<item name="android:layout_marginLeft">100dp</item>-->
+        <!--<item name="android:layout_height">48dp</item>-->
+        <!--<item name="android:textColor">#FFFFFF</item>-->
+        <!--<item name="titleTextSize">22px</item>-->
+        <!--<item name="iconLeftSize">30dp</item>-->
+        <!--<item name="iconRightSize">30dp</item>-->
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
