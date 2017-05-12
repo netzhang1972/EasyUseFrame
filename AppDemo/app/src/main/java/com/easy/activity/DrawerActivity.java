@@ -27,4 +27,5 @@ public class DrawerActivity extends BaseActivity {
         mDrawerLayout.addDrawerListener(new LeftDrawerToggleHelper(
                 this,mDrawerLayout,getTitleBar()));
     }
+
 }

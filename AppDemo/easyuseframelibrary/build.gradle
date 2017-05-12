@@ -32,6 +32,10 @@ dependencies {
     compile 'com.jakewharton:butterknife:7.0.1'
     //沉浸式通知栏
     compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    //谷歌推荐Glide图片加载库
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+
+
 }
 /** 以下开始是将Android Library上传到jcenter的相关配置**/
 
@@ -135,3 +139,4 @@ bintray {
 }
 //gradlew install //BUILD SUCCESSFUL成功
 //gradlew bintrayUpload // SUCCESSFUL
+//compile 'com.easy:easyuseframelibrary:1.0.0'

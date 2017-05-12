@@ -11,4 +11,5 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBlack">#000000</color>
     <color name="gray_line_color">#D9D9D9</color>
+    <color name="home_backgroundcolor">#edf1f3</color>
 </resources>

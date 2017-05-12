@@ -16,6 +16,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
     TextView tv01;
     @Bind(R.id.tv02)
     TextView tv02;
+    @Bind(R.id.tv03)
+    TextView tv03;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +26,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         getTitleBar().setLeftIcon(null);
         tv01.setOnClickListener(this);
         tv02.setOnClickListener(this);
+        tv03.setOnClickListener(this);
     }
 
     @Override
@@ -34,6 +37,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
                 break;
             case R.id.tv02:
                 startActivity(new Intent(MainActivity.this,RightIconSetActivity.class));
+                break;
+            case R.id.tv03:
+                startActivity(new Intent(MainActivity.this,ImagePickerActivity.class));
                 break;
         }
     }

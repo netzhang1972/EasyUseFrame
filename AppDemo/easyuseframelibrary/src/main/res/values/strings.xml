@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EasyUseFrameLibrary</string>
+    <string name="camera_function_is_not_enabled">摄像头权限未开启,无法拍照!</string>
+    <string name="the_storage_function_is_not_open">存储空间权限未开启，无法拍照!</string>
 </resources>

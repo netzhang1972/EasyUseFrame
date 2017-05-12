@@ -2,6 +2,7 @@ package com.easy.activity;
 
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
@@ -35,6 +36,7 @@ public abstract class BaseTitleBarActivity extends AppCompatActivity {
      */
     private RelativeLayout contentLayout = null;
 
+    private ActivityEvent mActivityEvent;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -111,5 +113,15 @@ public abstract class BaseTitleBarActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction()
                 .add(layoutId, newFragment)
                 .commit();
+    }
+    public void setActivityEvent(ActivityEvent activityEvent){
+        mActivityEvent = activityEvent;
+    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (mActivityEvent != null){
+            mActivityEvent.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
     }
 }

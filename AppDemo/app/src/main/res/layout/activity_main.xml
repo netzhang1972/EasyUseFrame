@@ -39,4 +39,19 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/easy_line_gray"/>
+    <TextView
+        android:id="@+id/tv03"
+        android:layout_below="@+id/line02"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="图片选择器"
+        android:textColor="@color/easy_black"
+        android:textSize="18dp"/>
+    <View
+        android:id="@+id/line03"
+        android:layout_below="@+id/tv03"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/easy_line_gray"/>
 </RelativeLayout>
